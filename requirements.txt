@@ -1,0 +1,14 @@
+# Requirements for running the analysis notebooks
+# Pin minimal compatible versions where practical; adjust to your environment as needed.
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+xgboost>=1.7
+shap>=0.41
+matplotlib>=3.5
+seaborn>=0.12
+category-encoders>=2.5
+notebook>=6.5
+jupyterlab>=4.0
+ipykernel>=6.0
+pdfminer.six>=20221105  # optional: for extracting PDF text if desired
